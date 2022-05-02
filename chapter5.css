@@ -1,0 +1,118 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header{
+  width:100%;
+  padding:20px 0; /*0の意味？？？*/
+  text-align:center; /*中央揃え*/
+}
+
+.nav-list{
+  text-align:center;
+  padding:15px 0; /*内側余白　要素の内側にある余白*/
+  margin:0 auto; /*外側余白　要素の外側にある余白*/
+  border-bottom:1px solid #848282; /*border(枠線)要素に枠線を設定するプロパティbottom(下側)solid(実線)*/
+  border-top:1px solid #848282;
+}
+
+.nav-list-item{
+  list-style:none;
+  display:inline-block; /*要素の表示形式を設定するプロパティ*/
+  margin:0 20px;
+}
+
+.main{
+  width:800px;
+  margin:50px auto;
+  display:flex; /*???*/
+  flex-wrap:wrap; /*???*/
+  background-color:greenyellow;
+}
+
+.box1{
+  width:200px;
+  height:200px;
+  background-color:#e6ffe9;
+}
+
+.box2{
+  width:200px;
+  height:200px;
+  background-color:#cdffd3;
+}
+
+.box3{
+  width:200px;
+  height:200px;
+  background-color:#aeffbd;
+}
+
+.box4{
+  width:200px;
+  height:200px;
+  background-color:#93ffab;
+}
+
+.box5{
+  width:200px;
+  height:200px;
+  background-color:#f3ffd8;
+}
+
+.box6{
+  width:200px;
+  height:200px;
+  background-color:#edffbe;
+}
+
+.box7{
+  width:200px;
+  height:200px;
+  background-color:#e9ffa5;
+}
+
+.box8{
+  width:200px;
+  height:200px;
+  background-color:#e4ff8d;
+}
+
+.box9{
+  width:200px;
+  height:200px;
+  background-color:#d9e5ff;
+}
+
+.box10{
+  width:200px;
+  height:200px;
+  background-color:#baf3ff;
+}
+
+.box11{
+  width:200px;
+  height:200px;
+  background-color:#a4c6ff;
+}
+
+.box12{
+  width:200px;
+  height:200px;
+  background-color:#8eb8ff;
+}
+
+
+footer{
+  width:100%;
+  height:120px;
+  text-align:center;
+  line-height:120px; /*中央揃え？？？*/
+  background-color:gray;
+}
+
+.footer-text{
+  color:#fff;
+}
